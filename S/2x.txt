@@ -1,0 +1,9 @@
+[A]	IF X ≠ 0 GOTO [B]		
+	Z₁	← 	Z₁+1
+	IF Z₁ ≠ 0 GOTO [C]
+[B]	Y 	← 	Y+1
+	Y 	← 	Y+1
+	X 	← 	X-1
+	Z₂	← 	Z₂+1
+	IF Z₂ ≠ 0 GOTO [A]
+[C]	IF Z₃ ≠ 0 GOTO [E]

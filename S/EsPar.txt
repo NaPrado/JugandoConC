@@ -1,0 +1,28 @@
+Z₁
+Z₂
+Z₃
+Z₁←
+Z₂←
+Z₃←
+Z₁≠
+Z₂≠
+Z₃≠
+X←
+X≠
+Y←
+Y≠
+f(x)=1 si x es par
+f(x)=0 si x no es par
+
+    IF X≠0 GOTO [A]
+[C] Y   ← Y+1
+    Z₁  ← Z₁+1
+    IF Z₁≠0 GOTO [E]
+[A] X   ← X-1
+    IF X≠0 GOTO [B]
+    Z₂  ← Z₂+1
+    IF Z₂≠0 GOTO [E]
+[B] X   ← X-1
+    IF X≠0 GOTO [A]
+    Z₃  ← Z₃+1
+    IF Z₃≠0 GOTO [C]

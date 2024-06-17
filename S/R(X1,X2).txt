@@ -1,0 +1,39 @@
+Z₁
+Z₂
+Z₃
+Z₄
+Z₁←
+Z₂←
+Z₃←
+Z₄←
+Z₁≠
+Z₂≠
+Z₃≠
+Z₄≠
+X₁
+X₁←
+X₁≠
+X₂
+X₂←
+X₂≠
+Y←
+Y≠
+
+R(X₁,X₂)=X₁-X₂
+
+[C] IF X₁≠O GOTO A
+    IF X₂≠0 GOTO D
+    Z₂  ← Z₂+1
+    IF Z₂≠0 GOTO E
+[D] Z₃  ← Z₃+1
+    IF Z₃≠0 GOTO D
+[A] IF X₂≠0 GOTO B
+    Y   ← Y+1
+    X₁  ← X₁-1
+    IF X₁≠0 GOTO A
+    Z₄  ← Z₄+1
+    IF Z₄≠0 GOTO E
+[B] X₁  ← X₁-1
+    X₂  ← X₂-1
+    Z₁  ← Z₁+1
+    IF Z₁≠0 GOTO C

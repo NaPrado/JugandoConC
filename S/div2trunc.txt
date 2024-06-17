@@ -1,0 +1,25 @@
+Z₁
+Z₂
+Z₃
+Z₁←
+Z₂←
+Z₃←
+Z₁≠
+Z₂≠
+Z₃≠
+X←
+X≠
+Y←
+Y≠
+
+[C] IF X≠0 GOTO A
+    Z₂  ← Z₂+1
+    IF Z₂≠0 GOTO E
+[A] X   ← X-1
+    IF X≠0 GOTO B
+    Z₃  ← Z₃+1
+    IF Z₃≠0 GOTO E
+[B] X   ← X-1
+    Y   ← Y+1
+    Z₁  ← Z₁+1
+    IF Z₁≠0 GOTO C

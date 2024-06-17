@@ -1,0 +1,32 @@
+Z₁
+Z₂
+Z₃
+Z₁←
+Z₂←
+Z₃←
+Z₁≠
+Z₂≠
+Z₃≠
+X₁
+X₁←
+X₁≠
+X₂
+X₂←
+X₂≠
+Y←
+Y≠
+f(X₁,X₂)=   1 si X₁=X₂
+            0 si X₁≠X₂
+
+[C] IF X₁≠0 GOTO A
+    IF X₂≠0 GOTO E
+    Y   ← Y+1
+[D] Z₂  ← Z₂+1
+    IF Z₂≠0 GOTO E
+[A] IF X₂≠0 GOTO B
+    Z₃  ← Z₃+1
+    IF Z₃≠0 GOTO D
+[B] X₁  ← X₁-1
+    X₂  ← X₂-1
+    Z₁  ← Z₁+1
+    IF Z₁≠0 GOTO C

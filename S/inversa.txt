@@ -1,0 +1,30 @@
+Z₁
+Z₂
+Z₃
+Z₄
+Z₁←
+Z₂←
+Z₃←
+Z₄←
+Z₁≠
+Z₂≠
+Z₃≠
+Z₄≠
+X₁
+X₁←
+X₁≠
+X₂
+X₂←
+X₂≠
+Y←
+Y≠
+
+IF Z₁=X₁ GOTO B₁
+SE EXPANDE A
+
+    Z₃  ← Z₁
+    Z₄  ← X
+    IF EQ(Z₃,Z₄)≠0 GOTO A
+    GOTO B₁
+[C₁] Z₅ ← Z₅+1 
+
